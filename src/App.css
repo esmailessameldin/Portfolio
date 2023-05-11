@@ -62,6 +62,9 @@ main {
 section {
   margin-bottom: 20px;
 }
+section h1 {
+  animation: color-change 2s infinite;
+}
 
 section h2 {
   animation: color-change 2s infinite;
