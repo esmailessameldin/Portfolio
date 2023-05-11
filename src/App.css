@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0e4dfc;
 }
 .App {
   text-align: center;
@@ -33,7 +33,7 @@
 }
 
 .App-header {
-  background-color: #61dafb;
+  background-color: #0e4dfc;
   padding: 20px;
   color: white;
   animation: App-header-animation 5s infinite;
@@ -49,9 +49,9 @@ a:hover {
    color: #00F
 }
 @keyframes App-header-animation {
-  0% { background-color: #61dafb; }
+  0% { background-color: #0e4dfc; }
   50% { background-color: #0b3c5d; }
-  100% { background-color: #61dafb; }
+  100% { background-color: #0e4dfc; }
 }
 
 main {
@@ -69,7 +69,7 @@ section h2 {
 
 @keyframes color-change {
   0% { color: white; }
-  50% { color: #61dafb; }
+  50% { color: #0e4dfc; }
   100% { color: white; }
 }
 
@@ -80,7 +80,7 @@ section h2 {
 }
 
 .project-box {
-  background-color: #61dafb;
+  background-color: #0e4dfc;
   width: 300px;
   height: 300px;
   padding: 10px;
