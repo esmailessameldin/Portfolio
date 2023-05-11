@@ -55,6 +55,7 @@ a:hover {
 }
 
 main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../src/images/background2.jpg);
   color: white;
   padding: 20px;
 }
@@ -63,44 +64,75 @@ section {
   margin-bottom: 20px;
 }
 section h1 {
-  animation: color-change 2s infinite;
+  animation: color-animation 2.5s infinite;
 }
 
+@keyframes color-animation {
+  0% { color: white;  font-size: 40px;}
+  50% { color: #00A0D5;  font-size: 39px;}
+  100% { color: white; font-size: 40px; }
+}
 section h2 {
-  animation: color-change 2s infinite;
+  animation: color-change 2.5s infinite;
 }
 
 @keyframes color-change {
   0% { color: white; }
-  50% { color: #033141; }
+  50% { color: #00A0D5; }
   100% { color: white; }
 }
 
 .projects {
   display: flex;
   justify-content: center;
+  
   gap: 20px;
 }
 
 .project-box {
   background-color: #00A0D5;
   width: 300px;
-  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )), url(../src/images/maybe3.png);
+  background-size: 200%;
+  height: 400px;
   padding: 10px;
   box-sizing: border-box;
-  color: black;
+ 
+    
+  color: #abe9f1;
+  font-family: 'Georgia ', serif;
   transition: transform 0.5s;
+  border-radius: 45px;
 }
 
 .project-box:hover {
-  transform: scale(1.05);
+  transform: scale(1.25);
+  font-size: large;
+  color: #abe9f1;
+
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+      0px -4px 10px rgba(255,255,255,0.3);
 }
 
 .project-box img {
   width: 100%;
   height: auto;
 }
+.header-button{
+ 
+  background-color: #00A0D5;
+  border: none;
+  width: 2vw;
+  height: 2vw;
+  
+  color: #cadfe9;
+  border-radius: 0.5vw;
+ 
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

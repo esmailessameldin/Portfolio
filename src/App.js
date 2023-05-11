@@ -2,10 +2,16 @@ import React from 'react';
 import './App.css';
 
 function App() {
+
   return (
+    
     <div className="App">
       <header className="App-header">
+        
+        <section>
         <h1>Welcome to Esmail Essam's portfolio </h1>
+        </section>
+      
       </header>
       <main>
         <section>
@@ -24,22 +30,22 @@ German university in cairo, Computer science major 2017 — 2024</p>
   <div className="projects">
     <div className="project-box">
       <img src="" alt="Project 1" />
-    <h5>Alpha-uni Feb 2021 — May 2021 </h5>
-    <h6>
+    <h3>Alpha-uni Feb 2021 — May 2021 </h3>
+    <h5>
          Alpha-uni is a fully functional college website with an admin system a student registration and
 management options and a faculty members system for editing courses and student grades alpha-uni has a grading system,
 prerequisites, attendance system, student courses and faculty editing for the admins, detailed schedules course adding and removing
 for students, transcripts Alpha uni was developed in JavaScript using Node.js, React and mongoDB and it was my first experience at Full
-stack developing .</h6>
+stack developing .</h5>
     </div>
     <div className="project-box">
       <img src="" alt="Project 2" />
-      <h5>Airline-Reservation-system </h5>
-      <h5> October 2021 — December 2021 </h5>
-      <h6> My latest approach in full stack developing .
+      <h3>Airline-Reservation-system </h3>
+      <h3> October 2021 — December 2021 </h3>
+      <h5> My latest approach in full stack developing .
 • Airline-Reservation-system is a fully functional airline website for reserving tickets with a refunding canceling and user
 registration system.
-• Airline-Reservation-system was developed in JavaScript using Node.js, React and mongoDB</h6>
+• Airline-Reservation-system was developed in JavaScript using Node.js, React and mongoDB</h5>
     </div>
     <div className="project-box">
       <img src="" alt="Project 3" />
