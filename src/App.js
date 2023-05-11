@@ -23,7 +23,7 @@ German university in cairo, Computer science major 2017 — 2024</p>
   <h2>Projects</h2>
   <div className="projects">
     <div className="project-box">
-      <img src="/* Your image URL here */" alt="Project 1" />
+      <img src="" alt="Project 1" />
     <h5>Alpha-uni Feb 2021 — May 2021 </h5>
     <h6>
          Alpha-uni is a fully functional college website with an admin system a student registration and
@@ -33,7 +33,7 @@ for students, transcripts Alpha uni was developed in JavaScript using Node.js, R
 stack developing .</h6>
     </div>
     <div className="project-box">
-      <img src="/* Your image URL here */" alt="Project 2" />
+      <img src="" alt="Project 2" />
       <h5>Airline-Reservation-system </h5>
       <h5> October 2021 — December 2021 </h5>
       <h6> My latest approach in full stack developing .
@@ -42,8 +42,8 @@ registration system.
 • Airline-Reservation-system was developed in JavaScript using Node.js, React and mongoDB</h6>
     </div>
     <div className="project-box">
-      <img src="/* Your image URL here */" alt="Project 3" />
-      <p>/* Your project description here */</p>
+      <img src="" alt="Project 3" />
+      <p></p>
     </div>
   </div>
 </section>
