@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useRef,useState } from "react";
 import './App.css';
+import { FaArrowDown } from "react-icons/fa";
 
-function App() {
+
+export default function App() {
+  const handleClickScroll = () => {
+    const element = document.getElementById('ref');
+    console.log(element)
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' ,block: "end", inline: "nearest"});
+    }}
 
   return (
     
@@ -10,10 +19,11 @@ function App() {
         
         <section>
         <h1>Welcome to Esmail Essam's portfolio </h1>
+       <button className="button-header"  onClick={handleClickScroll}> <FaArrowDown/></button>
         </section>
-      
+ 
       </header>
-      <main>
+      <main id="ref" >
         <section>
           <h2>About Me</h2>
           <p>Full stack developer / Junior Developer </p>
@@ -65,8 +75,7 @@ registration system.
       </main>
     </div>
   );
-}
+
+  }
 
 
-
-export default App;

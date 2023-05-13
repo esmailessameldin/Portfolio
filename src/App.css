@@ -105,6 +105,17 @@ section h2 {
   border-radius: 45px;
 }
 
+.button-header {
+  outline: none;
+  scroll-behavior: smooth;
+  position:relative; top:250px;
+  background-color: transparent;
+  border-radius: 100%;
+  color: #3498db;
+ 
+
+}
+
 .project-box:hover {
   transform: scale(1.25);
   font-size: large;
