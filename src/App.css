@@ -106,12 +106,13 @@ section h2 {
 }
 
 .button-header {
-  outline: none;
+
+  padding: 15px 32px;
   scroll-behavior: smooth;
   position:relative; top:250px;
   background-color: transparent;
-  border-radius: 100%;
-  color: #3498db;
+  border-radius: 70%;
+  color: #00A0D5;
  
 
 }
