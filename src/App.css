@@ -86,18 +86,26 @@ section h2 {
   display: flex;
   justify-content: center;
   
+  gap: 50px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  
   gap: 20px;
 }
 
 .project-box {
-  background-color: #00A0D5;
-  width: 300px;
+
+  width: 400px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )), url(../src/images/maybe3.png);
   background-size: 200%;
   height: 400px;
   padding: 10px;
   box-sizing: border-box;
- 
+  justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
     
   color: #abe9f1;
   font-family: 'Georgia ', serif;
@@ -118,17 +126,23 @@ section h2 {
 }
 
 .project-box:hover {
-  transform: scale(1.25);
+  transform: scale(1.42);
   font-size: large;
   color: #abe9f1;
+  
+  
 
   text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
       0px -4px 10px rgba(255,255,255,0.3);
 }
 
+
 .project-box img {
-  width: 100%;
-  height: auto;
+  width: 150px;
+  height: 120px;
+}
+.project-box a{
+  color: #abe9f1  ;
 }
 .header-button{
  

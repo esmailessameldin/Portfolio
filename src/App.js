@@ -2,13 +2,12 @@ import React from "react";
 import './App.css';
 import { FaArrowDown } from "react-icons/fa";
 
-
 export default function App() {
   const handleClickScroll = () => {
     const element = document.getElementById('ref');
     console.log(element)
     if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
+ 
       element.scrollIntoView({ behavior: 'smooth' ,block: "end", inline: "nearest"});
     }}
 
@@ -39,7 +38,7 @@ German university in cairo, Computer science major 2017 — 2024</p>
   <h2>Projects</h2>
   <div className="projects">
     <div className="project-box">
-      <img src="" alt="Project 1" />
+
     <h3>Alpha-uni Feb 2021 — May 2021 </h3>
     <h5>
          Alpha-uni is a fully functional college website with an admin system a student registration and
@@ -52,14 +51,24 @@ stack developing .</h5>
       <img src="" alt="Project 2" />
       <h3>Airline-Reservation-system </h3>
       <h3> October 2021 — December 2021 </h3>
-      <h5> My latest approach in full stack developing .
+      <h5> 
 • Airline-Reservation-system is a fully functional airline website for reserving tickets with a refunding canceling and user
 registration system.
 • Airline-Reservation-system was developed in JavaScript using Node.js, React and mongoDB</h5>
     </div>
     <div className="project-box">
-      <img src="" alt="Project 3" />
-      <p></p>
+  
+      <h3>Travel </h3>
+      <h3> October 2022 — December 2022 </h3>
+      
+      <h5> My latest approach in  developing .
+Travel is made with Express Nodejs and MongoDB.
+it gives you the ability to view travel location book edit your bookings .
+</h5>
+<a href='https://networks-travel.onrender.com/'>Link to the live website </a>
+
+
+
     </div>
   </div>
 </section>
