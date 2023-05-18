@@ -65,7 +65,7 @@ registration system.
 Travel is made with Express Nodejs and MongoDB.
 it gives you the ability to view travel location book edit your bookings .
 </h5>
-<a href='https://networks-travel.onrender.com/' target="_blank">Link to the live website </a>
+<a href='https://networks-travel.onrender.com/' >Link to the live website </a>
 
 
 
@@ -76,9 +76,9 @@ it gives you the ability to view travel location book edit your bookings .
           <h2>Contact Me</h2> 
            <p>esmailessameldeinsaba@gmail.com </p>
            <p>+201067559848  </p>
-          <a href='https://github.com/esmailessameldin' target="_blank">GitHub </a>
+          <a href='https://github.com/esmailessameldin' >GitHub </a>
           <p> </p>
-          <a href='https://www.linkedin.com/in/esmail-saba-143446156/' target="_blank">My linkedin </a>
+          <a href='https://www.linkedin.com/in/esmail-saba-143446156/'>My linkedin </a>
      
         </section>
       </main>
