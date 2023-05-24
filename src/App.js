@@ -48,7 +48,7 @@ for students, transcripts Alpha uni was developed in JavaScript using Node.js, R
 stack developing .</h5>
     </div>
     <div className="project-box">
-      <img src="" alt="Project 2" />
+  
       <h3>Airline-Reservation-system </h3>
       <h3> October 2021 — December 2021 </h3>
       <h5> 
